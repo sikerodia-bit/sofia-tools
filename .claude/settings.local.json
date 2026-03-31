@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(for dir:*)",
+      "Bash(do)",
+      "Bash(touch \"$dir/__init__.py\")",
+      "Bash(done)",
+      "Bash(python -m pytest tests/ -v)",
+      "Bash(pip install:*)",
+      "Bash(python:*)",
+      "Bash(pip show:*)",
+      "Bash(C:/Users/dimit/AppData/Local/Programs/Python/Python313/python.exe -m pip install pytest pytest-asyncio httpx beautifulsoup4)"
+    ]
+  }
+}
